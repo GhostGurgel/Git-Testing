@@ -1,0 +1,17 @@
+
+## 📄 Descrição do Problema
+O objetivo foi implementar um controle simples e intuitivo de disponibilidade semanal para 10 posições (5 dias x 2 turnos), minimizando o risco de erros de contagem do operador ao final do expediente.
+
+---
+
+## 🏗️ Decisões Arquiteturais
+1. **Linguagem e Framework:** Python 3 + `tkinter` nativo para garantir compatibilidade multiplataforma sem necessidade de instalar pacotes externos.
+2. **Estrutura de Dados:** Utilização de uma matriz bidimensional (lista de listas em Python) inicializada com `0`:
+   - `0`: Horário Vazio
+   - `1`: Horário Ocupado
+3. **Padrão BDD:** O comportamento da interface e os testes de alternância seguiram rigorosamente as especificações de comportamento em BDD (DADO / QUANDO / ENTÃO).
+
+---
+
+## ⚠️ Pontos de Atenção
+- **Memória Volátil:** Na versão atual, a matriz é mantida apenas em memória durante a execução do programa.

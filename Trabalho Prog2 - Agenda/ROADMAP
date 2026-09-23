@@ -1,0 +1,11 @@
+🗺️ ROADMAP - Agenda Semanal de Horários
+
+Este documento descreve o planejamento de releases e evolução da Agenda Semanal de Horários.
+
+---
+
+## 📌 Release 1.0 (Versão Atual)
+- [x] Interface gráfica em Tkinter (padrão Windows).
+- [x] Matriz $5 \times 2$ inicializada com 0 (Vazio).
+- [x] Alternância dinâmica de estado ao clicar no botão.
+- [x] Contagem dinâmica do total de horários preenchidos ao encerrar o sistema.

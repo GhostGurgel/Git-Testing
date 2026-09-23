@@ -1,0 +1,25 @@
+# 📅 Agenda Semanal de Horários (Matriz 5x2)
+
+## 📌 Descrição do Projeto
+Aplicação desenvolvida em Python com a biblioteca Tkinter para controle e gestão de uma agenda semanal de horários. A interface simula o padrão visual do Windows e utiliza uma matriz lógica $5 \times 2$ (representando 5 dias úteis, de segunda a sexta-feira, por 2 períodos: manhã e tarde).
+
+O sistema permite alternar os estados dos horários entre **0 (Vazio)** e **1 (Ocupado)** ao clicar sobre cada célula, apresentando ao final um relatório consolidado com o total de horários preenchidos.
+
+---
+
+## 🚀 Funcionalidades
+- **Matriz Visual 5x2:** 10 células de controle de horários (Segunda a Sexta x Manhã e Tarde).
+- **Alternância Dinâmica:** Clique para alternar entre `0 (Vazio)` (cor cinza) e `1 (Ocupado)` (cor verde).
+- **Contagem e Relatório:** Botão para encerrar os trabalhos que calcula a soma da matriz e exibe o total de horários ocupados.
+
+---
+
+## 🛠️ Estrutura do Repositório
+```text
+.
+├── MEMORY.md            # Contexto arquitetural e decisões do projeto
+├── ROADMAP.md           # Planejamento de releases futuras
+├── README.md            # Documentação principal
+├── main.py              # Código-fonte principal em Python/Tkinter
+└── ia/
+    └── Prompt Python.md # Prompt e regras BDD utilizados na IA
