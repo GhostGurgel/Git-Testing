@@ -1,4 +1,7 @@
-Um sistema para preencher uma agenda semanal de horários. A agenda é composta por cinco dias, de segunda a sexta-feira, com dois horários por dia, manhã e tarde, totalizando dez posições. O objetivo do sistema é permitir que o usuário controle quais horários estão ocupados até decidir encerrar o trabalho, quando será apresentado o total de horários preenchidos no período.
+Um sistema para preencher uma agenda semanal de horários. 
+A agenda é composta por cinco dias, de segunda a sexta-feira, com dois horários por dia, manhã e tarde, totalizando dez posições.
+ O objetivo do sistema é permitir que o usuário controle quais horários estão ocupados até decidir encerrar o trabalho, 
+ quando será apresentado o total de horários preenchidos no período.
 
 DADO que o sistema seja iniciado no início dos trabalhos
 QUANDO o usuário abrir a interface do sistema
@@ -20,4 +23,9 @@ DADO que um horário esteja vazio
 QUANDO o usuário clicar sobre esse horário
 ENTÃO seu estado poderá ser alternado, passando de vazio para ocupado.
 
-O sistema deve apresentar uma interface no padrão Windows, usando uma MATRIZ de 5 linhas, representando os dias da semana de segunda a sexta-feira, por 2 colunas, representando os períodos da manhã e da tarde. A matriz considera o valor 0 para representar um horário vazio e o valor 1 para representar um horário ocupado. Ao clicar em uma célula da matriz, o valor será alternado entre 0 e 1 conforme o estado do horário. Ao final, o usuário clica em um botão para encerrar o sistema, que exibirá o total de horários preenchidos no período.
+O sistema deve apresentar uma interface no padrão Windows, usando uma MATRIZ de 5 linhas, 
+representando os dias da semana de segunda a sexta-feira, por 2 colunas, representando os 
+períodos da manhã e da tarde. A matriz considera o valor 0 para representar um horário vazio
+ e o valor 1 para representar um horário ocupado. Ao clicar em uma célula da matriz, o valor 
+ será alternado entre 0 e 1 conforme o estado do horário. Ao final, o usuário clica em um 
+ botão para encerrar o sistema, que exibirá o total de horários preenchidos no período.
