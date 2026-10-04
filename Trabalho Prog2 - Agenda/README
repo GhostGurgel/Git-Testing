@@ -1,25 +1,29 @@
-# 📅 Agenda Semanal de Horários (Matriz 5x2)
+# 📅 Agenda Semanal de Horários em Python (Tkinter)
 
-## 📌 Descrição do Projeto
-Aplicação desenvolvida em Python com a biblioteca Tkinter para controle e gestão de uma agenda semanal de horários. A interface simula o padrão visual do Windows e utiliza uma matriz lógica $5 \times 2$ (representando 5 dias úteis, de segunda a sexta-feira, por 2 períodos: manhã e tarde).
-
-O sistema permite alternar os estados dos horários entre **0 (Vazio)** e **1 (Ocupado)** ao clicar sobre cada célula, apresentando ao final um relatório consolidado com o total de horários preenchidos.
+Uma aplicação desktop simples e intuitiva desenvolvida em Python utilizando a biblioteca gráfica **Tkinter**. O sistema permite gerenciar visualmente a disponibilidade de horários ao longo da semana de trabalho (segunda a sexta-feira) e gera um relatório detalhado de ocupação ao encerrar.
 
 ---
 
 ## 🚀 Funcionalidades
-- **Matriz Visual 5x2:** 10 células de controle de horários (Segunda a Sexta x Manhã e Tarde).
-- **Alternância Dinâmica:** Clique para alternar entre `0 (Vazio)` (cor cinza) e `1 (Ocupado)` (cor verde).
-- **Contagem e Relatório:** Botão para encerrar os trabalhos que calcula a soma da matriz e exibe o total de horários ocupados.
+
+- **Grade Interativa ($5 \times 7$):** Mapeamento de 5 dias úteis (Segunda a Sexta) por 7 intervalos de horário de 1 hora.
+- **Alternância de Estado:** Clique nos slots para alternar entre `0 (Livre)` e `1 (Ocupado)` com resposta visual por cores.
+- **Limpeza Rápida:** Botão para redefinir toda a grade com confirmação de segurança.
+- **Relatório Automático:** Ao encerrar o programa (pelo botão dedicado ou fechando a janela), o sistema exibe:
+  - Total de horários ocupados.
+  - Total de horários disponíveis.
+  - Taxa percentual de ocupação semanal.
 
 ---
 
-## 🛠️ Estrutura do Repositório
-```text
-.
-├── MEMORY.md            # Contexto arquitetural e decisões do projeto
-├── ROADMAP.md           # Planejamento de releases futuras
-├── README.md            # Documentação principal
-├── main.py              # Código-fonte principal em Python/Tkinter
-└── ia/
-    └── Prompt Python.md # Prompt e regras BDD utilizados na IA
+## 🛠️ Tecnologias Utilizadas
+
+- **[Python 3.x](https://www.python.org/):** Linguagem base do projeto.
+- **[Tkinter](https://docs.python.org/3/library/tkinter.html):** Interface gráfica nativa do Python (não requer instalação de pacotes externos).
+
+---
+
+## 📦 Como Executar
+
+### Pré-requisitos
+Certifique-se de ter o **Python 3** instalado em sua máquina.

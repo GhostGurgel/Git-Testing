@@ -1,11 +1,30 @@
-🗺️ ROADMAP - Agenda Semanal de Horários
+# 🗺️ ROADMAP - Agenda Semanal de Horários
 
-Este documento descreve o planejamento de releases e evolução da Agenda Semanal de Horários.
+Este documento descreve o planejamento de releases, histórico de versões e evolução da **Agenda Semanal de Horários**.
 
 ---
 
-## 📌 Release 1.0 (Versão Atual)
+## 📌 Release 1.0 (Versão Inicial)
 - [x] Interface gráfica em Tkinter (padrão Windows).
-- [x] Matriz $5 \times 2$ inicializada com 0 (Vazio).
+- [x] Matriz 5x2 inicializada com 0 (Vazio) cobrindo os turnos Manhã/Tarde.
 - [x] Alternância dinâmica de estado ao clicar no botão.
 - [x] Contagem dinâmica do total de horários preenchidos ao encerrar o sistema.
+
+---
+
+## 🚀 Release 1.1 (Versão Atual)
+- [x] **Expansão da Matriz para 5x7:** Suporte para 7 slots de horários individuais (08:00 às 11:00 e 12:00 às 16:00).
+- [x] **Mapeamento Detalhado por Hora:** Rótulos específicos para cada faixa de horário na interface.
+- [x] **Métricas Aprimoradas:** Cálculo automático da taxa percentual de ocupação no relatório final de encerramento.
+- [x] **Ajustes de UX/UI:** Redimensionamento dinâmico dos botões para melhor adaptação no grid Tkinter.
+- [x] **Versionamento:** Conexão e sincronização do código fonte via Git e GitHub (`main`).
+
+---
+
+## 🔮 Release 2.0 (Alocação de Serviços & Persistência)
+- [ ] **Seleção de Tipo de Serviço:** Permissão para alocar o horário selecionando entre diferentes categorias de serviço.
+- [ ] **Identificação Visual por Cores:** Diferenciação visual dos botões de acordo com o tipo de serviço agendado.
+- [ ] **Relatório Categorizado:** Exibição do total de horas agendadas por tipo de serviço ao encerrar.
+- [ ] **Persistência de Dados:** Salvamento automático da agenda em arquivo JSON para manter os agendamentos salvos ao reabrir a aplicação.
+- [ ] **Configuração do Ambiente:** Arquivo `.gitignore` para ignorar arquivos temporários do Python e VS Code.
+- [ ] **Ações Rápidas:** Botão para resetar/limpar todos os agendamentos da semana.
